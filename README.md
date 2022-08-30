@@ -4,7 +4,7 @@
 
 2. Create a virtual keyboard layout on the screen .
 
-3. If pointing finger reach any of the key cordinates then point this key character and if pointer+middle finger distance is very close then get this character and wrote on the editor or screen. 
+3. If pointing finger reach any of the key cordinates then point this key character and if pointer+middle finger distance is very close then get this character and wrote  this character on the editor or screen. 
 
 # How to use:
 
