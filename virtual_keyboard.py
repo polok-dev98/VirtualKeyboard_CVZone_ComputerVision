@@ -7,10 +7,13 @@ import cvzone
 from pynput.keyboard import Controller
  
 cap = cv2.VideoCapture(0)
+#set the height and width of the camera.
 cap.set(3, 1280)
 cap.set(4, 720)
- 
+
+#initialize the hand detector.
 detector = HandDetector(detectionCon=0.8)
+# Set the keyboard button.
 keys = [["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
         ["A", "S", "D", "F", "G", "H", "J", "K", "L", ";"],
         ["Z", "X", "C", "V", "B", "N", "M", ",", ".", "/"]]
@@ -18,7 +21,7 @@ finalText = ""
  
 keyboard = Controller()
  
-
+# Draw the keyboard layout.
 def drawAll(img, buttonList):
      imgNew = np.zeros_like(img, np.uint8)
      for button in buttonList:
@@ -37,7 +40,7 @@ def drawAll(img, buttonList):
      out[mask] = cv2.addWeighted(img, alpha, imgNew, 1 - alpha, 0)[mask]
      return out
  
- 
+# create the button class.
 class Button():
     def __init__(self, pos, text, size=[85, 85]):
         self.pos = pos
