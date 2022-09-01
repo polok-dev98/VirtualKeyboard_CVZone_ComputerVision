@@ -12,4 +12,4 @@
 
 2. Use your left and right hand to write any character. To select any button use pointing finger and to write this character use pointer+middle finger(for click).
 
-3. Press "q" to exit.
+3. Press "q" to exit..
