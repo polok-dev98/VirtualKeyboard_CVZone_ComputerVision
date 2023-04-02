@@ -1,4 +1,4 @@
-# This Project is about create a virtual keyboard on your camera screen with cvzone and computer vision .You can write A-Z character using this virtual keyboard on screen, notepad,Msword and any text editor.
+This Project is about create a virtual keyboard on your camera screen with cvzone and computer vision .You can write A-Z character using this virtual keyboard on screen, notepad,Msword and any text editor.
 
 1. Here used Hand Detector from the cvzone, handtracking module to detect the hand land marks.
 
